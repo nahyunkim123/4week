@@ -1,0 +1,84 @@
+.wrap {
+  width: 100%;
+  .screen {
+    width: 320px;
+    margin: 100px auto;
+    box-shadow: 0 0 3px #ddd;
+    padding: 38px 30px;
+    h3 {
+      font-size: 20px;
+      padding-bottom: 12px;
+    }
+    p {
+      font-size: 13px;
+    }
+    .id-wrap {
+      display: flex;
+      flex-wrap: nowrap;
+      align-items: start;
+      position: relative;
+      #emailError {
+        position: absolute;
+        bottom: -5px; left: 0;
+      }
+      #btn {
+        width: 55px;
+        height: 33px;
+        margin-left: 10px;
+        background-color: #dadada;
+        color: rgb(99, 99, 99);
+        border: none;
+        font-size: 11px;
+        cursor: pointer;
+      }
+    }
+    input {
+        
+      width: 90%;
+      height: 30px;
+      outline: 1px solid #ddd;
+      border: none;
+      margin-bottom: 15px;
+      &:focus {
+        outline: 1.7px solid #aaa1ff;
+      }
+      &::placeholder {
+        font-size: 10px;
+        padding-left: 10px;
+      }
+    }
+
+    .pw-wrap{
+        position: relative;
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: 10px;
+        #passwordError {
+          position: absolute;
+          bottom: -5px; left: 0;
+          
+        }
+    }
+
+    span{
+        
+        font-size: 10px;
+        color: coral;
+    }
+
+    #joinBtn {
+      width: 320px;
+      height: 37px;
+      background-color: #c4c4c4;
+      border: none;
+      margin-top: 20px;
+      font-weight: bold;
+      color: rgb(255, 255, 255);
+      transition: 0.3s;
+      cursor: pointer;
+      &:hover {
+        background-color: rgb(140, 141, 225);
+      }
+    }
+  }
+}

@@ -1,0 +1,84 @@
+.wrap {
+  width: 100%;
+}
+.wrap .screen {
+  width: 320px;
+  margin: 100px auto;
+  box-shadow: 0 0 3px #ddd;
+  padding: 38px 30px;
+}
+.wrap .screen h3 {
+  font-size: 20px;
+  padding-bottom: 12px;
+}
+.wrap .screen p {
+  font-size: 13px;
+}
+.wrap .screen .id-wrap {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: start;
+  position: relative;
+}
+.wrap .screen .id-wrap #emailError {
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+}
+.wrap .screen .id-wrap #btn {
+  width: 55px;
+  height: 33px;
+  margin-left: 10px;
+  background-color: #dadada;
+  color: rgb(99, 99, 99);
+  border: none;
+  font-size: 11px;
+  cursor: pointer;
+}
+.wrap .screen input {
+  width: 90%;
+  height: 30px;
+  outline: 1px solid #ddd;
+  border: none;
+  margin-bottom: 15px;
+}
+.wrap .screen input:focus {
+  outline: 1.7px solid #aaa1ff;
+}
+.wrap .screen input::-moz-placeholder {
+  font-size: 10px;
+  padding-left: 10px;
+}
+.wrap .screen input::placeholder {
+  font-size: 10px;
+  padding-left: 10px;
+}
+.wrap .screen .pw-wrap {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+}
+.wrap .screen .pw-wrap #passwordError {
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+}
+.wrap .screen span {
+  font-size: 10px;
+  color: coral;
+}
+.wrap .screen #joinBtn {
+  width: 320px;
+  height: 37px;
+  background-color: #c4c4c4;
+  border: none;
+  margin-top: 20px;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+  transition: 0.3s;
+  cursor: pointer;
+}
+.wrap .screen #joinBtn:hover {
+  background-color: rgb(140, 141, 225);
+}/*# sourceMappingURL=login.css.map */

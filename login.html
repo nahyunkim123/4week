@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/login.css" />
+  </head>
+  <body>
+    <div class="wrap">
+      <div class="screen">
+        <h3>회원가입</h3>
+        <p>이메일</p>
+            <div class="id-wrap">
+            <input id="id" type="email" placeholder="이메일을 입력하세요" />
+            
+            <button id="btn" onclick="checkDuplicate()">중복 체크</button>
+            <span id="emailError"></span>
+            </div>
+            <p>비밀번호</p>
+            <div class="pw-wrap">
+                <input
+                id="pw"
+                type="password"
+                maxlength="13"
+                placeholder="비밀번호를 입력하세요"
+                />
+                <span id="passwordError"></span>
+            </div>
+            <input id="pwCHK" type="password" placeholder="비밀번호 확인" />
+            <span id="pwCHKError"></span>
+            <input id="joinBtn" onclick="return join()" type="submit" value="가입하기" />
+
+      </div>
+    </div>
+
+    <script src="js/login.js"></script>
+  </body>
+</html>
